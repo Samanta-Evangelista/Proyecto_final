@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Caladea&family=Crimson+Text&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Caladea&family=Crimson+Text&display=swap");
 
 /* reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* fuentes 
@@ -14,54 +14,66 @@ font-family: 'Crimson Text', serif;
 /* un punto adelante siempre llama la clase */
 
 @font-face {
-    font-family: 'logo';
-    src: url(../assets/fonts/CrazyWish.otf);
-}
-
-header {
-    background-color: #E9EDC9;
+  font-family: "logo";
+  src: url(../assets/fonts/CrazyWish.otf);
 }
 
 /* header */
-header nav h1 {
-    color: rgb(108, 83, 216);
-    font-size: 18;
-    font-family: 'logo';
+
+header {
+  background-color: #e9edc9;
+  padding: 1.25rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  color: rgb(108, 83, 216);
 }
 
-.navbar li a {
-    text-decoration: none;
-    color: black;
-    font-size: 12;
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 1.25rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
 
 /* main */
+
 main {
-    background-color: #FEFAE0;
+  background-color: #fefae0;
 }
 
 .principal {
-    text-align: center;
+  text-align: center;
 }
 
 .cuotas {
-    background-color: #FAEDCD;
-    font-size: 18;
-    /* text-align: center; */
+  background-color: #faedcd;
+  font-size: 18;
+  /* text-align: center; */
 }
 
 /* cards */
 .cards {
-    text-align: center;
-    /* width: 50rem; */
-    /* height: 31.25rem; */
-    /* background-color: #CCD5AE; */
+  text-align: center;
+  /* width: 50rem; */
+  /* height: 31.25rem; */
+  /* background-color: #CCD5AE; */
 }
 
 .cards p {
-    padding: 0px 130px 0px 130px;
+  padding: 0rem 8.125rem;
 }
 
 footer {
-    background-color: #CCD5AE;
+  background-color: #ccd5ae;
 }
