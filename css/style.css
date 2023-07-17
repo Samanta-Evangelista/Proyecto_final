@@ -45,9 +45,14 @@ nav ul li a {
   color: #fff;
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
 /* main */
 main {
-  background-color: #fefae0;
+  background-color: #c9cebd;
 }
 
 .cuotas {
@@ -62,6 +67,16 @@ main {
   color: #fff;
 }
 
+.banner {
+  background-image: url("../assets/img/Banner.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
 /* cards */
 .cards {
   text-align: center;
@@ -71,7 +86,8 @@ main {
 }
 
 .cards p {
-  padding: 0px 130px 0px 130px;
+  padding: 0px 130px 30px 130px;
+  margin-bottom: 0px;
 }
 
 /* Contactos */
@@ -88,4 +104,22 @@ main {
 
 footer {
   background-color: #ccd5ae;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.9375rem 0.9375rem;
+}
+.domicilio {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.9375rem;
+  list-style: none;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.9375rem;
+  padding: 0.3125rem 0rem;
 }
