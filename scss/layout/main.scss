@@ -1,0 +1,70 @@
+/* main */
+main {
+  background-color: #c9cebd;
+}
+
+.cuotas {
+  text-align: center;
+  background-color: chocolate;
+  padding: 10px 0px;
+}
+
+.cuotas p {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
+
+.banner {
+  background-image: url("../assets/img/Banner.jpg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Tratamientos Faciales / Tratamientos Corporales / Depilación definitiva */
+.tituloPrincipal {
+  padding-top: 35px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.item h3 {
+  padding-top: 15px;
+}
+
+.item p {
+  padding-top: 15px;
+  font-size: 16px;
+}
+
+/* Contactos */
+.mapa {
+  width: 100%;
+  height: 450px;
+  border: 0;
+}
+
+.formulario {
+  display: flex;
+  justify-content: centers;
+}
