@@ -17,11 +17,12 @@ font-family: 'Crimson Text', serif;
 /* header */
 header {
   background-color: #64403e;
-  padding: 30px;
+  background: linear-gradient(90deg, rgb(205, 83, 7) 28%, rgb(221, 135, 42) 50%, rgb(219, 135, 65) 78%);
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #ccd5ae;
+  color: white;
 }
 
 nav ul {
@@ -53,8 +54,8 @@ main {
 
 .cuotas {
   text-align: center;
-  background-color: chocolate;
-  padding: 10px 0px;
+  background-color: rgb(244, 123, 37);
+  padding: 0.3125rem 0rem;
 }
 
 .cuotas p {

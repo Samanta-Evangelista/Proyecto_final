@@ -1,0 +1,11 @@
+@mixin cuotas() {
+  text-align: center;
+  background-color: rgb(244, 123, 37);
+  padding: 0.3125rem 0rem;
+}
+
+@mixin cuotasParrafo() {
+  margin: 0;
+  font-size: 24px;
+  color: #fff;
+}
