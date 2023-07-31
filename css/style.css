@@ -50,6 +50,8 @@ nav ul li a:hover {
 /* main */
 main {
   background-color: #c9cebd;
+  display: flex;
+  flex-direction: column;
 }
 
 .cuotas {
