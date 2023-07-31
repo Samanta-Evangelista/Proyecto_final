@@ -25,6 +25,15 @@ header {
   color: white;
 }
 
+.title a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.title a:hover {
+  color: #fff;
+}
+
 nav ul {
   list-style-type: none;
   /* margin: 0; */
