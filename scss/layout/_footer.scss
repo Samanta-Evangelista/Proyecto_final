@@ -1,5 +1,11 @@
 footer {
   background-color: #ccd5ae;
+  background: linear-gradient(
+    90deg,
+    rgba(205, 83, 7, 1) 28%,
+    rgba(221, 135, 42, 1) 50%,
+    rgba(219, 135, 65, 1) 78%
+  );
   display: flex;
   flex-direction: row;
   justify-content: space-between;
