@@ -1,6 +1,6 @@
 /* main */
 main {
-  background-color: #c9cebd;
+  background-color: $mainBackgroundColor;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -19,12 +19,6 @@ main {
   max-width: 1100px;
   min-width: 320px;
   margin: auto;
-  // background-size: cover;
-  // height: 400px;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  // color: #fff;
 }
 
 .banner img {

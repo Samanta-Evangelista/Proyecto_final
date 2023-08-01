@@ -1,12 +1,7 @@
 /* header */
 header {
   background-color: #64403e;
-  background: linear-gradient(
-    90deg,
-    rgba(205, 83, 7, 1) 28%,
-    rgba(221, 135, 42, 1) 50%,
-    rgba(219, 135, 65, 1) 78%
-  );
+  background: $gradientBackgroundColor;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -16,11 +11,11 @@ header {
 
 .title a {
   text-decoration: none;
-  color: #fff;
+  color: $fontHeaderColor;
 }
 
 .title a:hover {
-  color: #fff;
+  color: $fontHeaderColor;
 }
 
 nav ul {
@@ -37,10 +32,10 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: $fontHeaderColor;
 }
 
 nav ul li a:hover {
   text-decoration: underline;
-  color: #fff;
+  color: $fontHeaderColor;
 }
