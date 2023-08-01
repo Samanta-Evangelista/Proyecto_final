@@ -83,7 +83,7 @@ main {
   text-align: center;
 }
 
-.grid-container {
+.grid-contenedor {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
