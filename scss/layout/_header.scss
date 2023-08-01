@@ -9,12 +9,16 @@ header {
   color: white;
 }
 
-.title a {
+.linkReset {
   text-decoration: none;
   color: $fontHeaderColor;
 }
 
-.title a:hover {
+.logo a {
+  @extend .linkReset;
+}
+
+.logo a:hover {
   color: $fontHeaderColor;
 }
 
@@ -31,8 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: $fontHeaderColor;
+  @extend .linkReset;
 }
 
 nav ul li a:hover {
