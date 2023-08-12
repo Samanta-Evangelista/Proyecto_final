@@ -13,6 +13,10 @@ header {
   color: $fontHeaderColor;
 }
 
+.logo {
+  font-family: $logo;
+}
+
 .logo a {
   @extend .linkReset;
   font-size: 1.6875rem;
@@ -30,7 +34,8 @@ nav ul {
   // align-items: center;
 }
 
-nav ul li {
+.navbar li a {
+  font-family: $navbar;
   margin-right: 20px;
 }
 
