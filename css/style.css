@@ -12,7 +12,7 @@ font-family: 'Crimson Text', serif;
  */
 @font-face {
   font-family: "logo";
-  src: url(../assets/fonts/CrazyWish.otf);
+  src: url();
 }
 /* header */
 header {
