@@ -19,7 +19,6 @@ header {
 
 .logo a {
   @extend .linkReset;
-  font-size: 1.6875rem;
 }
 
 .logo a:hover {
@@ -28,19 +27,14 @@ header {
 
 nav ul {
   list-style-type: none;
-  /* margin: 0; */
-  /* padding: 0; */
   display: flex;
-  // align-items: center;
+  margin-bottom: 0px;
 }
 
 .navbar li a {
+  @extend .linkReset;
   font-family: $navbar;
   margin-right: 20px;
-}
-
-nav ul li a {
-  @extend .linkReset;
 }
 
 nav ul li a:hover {

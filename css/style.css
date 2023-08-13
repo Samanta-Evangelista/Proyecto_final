@@ -22,7 +22,7 @@ header {
   color: white;
 }
 
-.linkReset, nav ul li a, .logo a {
+.linkReset, .navbar li a, .logo a {
   text-decoration: none;
   color: #fff;
 }
@@ -31,19 +31,14 @@ header {
   font-family: "Damion", cursive;
 }
 
-.logo a {
-  font-size: 1.6875rem;
-}
-
 .logo a:hover {
   color: #fff;
 }
 
 nav ul {
   list-style-type: none;
-  /* margin: 0; */
-  /* padding: 0; */
   display: flex;
+  margin-bottom: 0px;
 }
 
 .navbar li a {
